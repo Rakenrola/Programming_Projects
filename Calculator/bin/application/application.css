@@ -1,0 +1,64 @@
+.button {
+	-fx-border-radius: 30.0;
+}
+
+.Button {
+    -fx-background-color:  rgb(97, 97, 97)
+}
+
+.Button:hover {
+    -fx-background-color: #868686;
+}
+
+.Button:pressed {
+    -fx-background-color: #4B4B4B;
+}
+
+.Operator {
+	-fx-background-color:  rgb(48, 48, 48);
+}
+
+.Operator:hover {
+	-fx-background-color:  rgb(80, 80, 80);
+}
+
+.Operator:pressed {
+	-fx-background-color: rgb(30, 30, 30);
+}
+
+.Equal {
+	-fx-background-color: rgb(121, 186, 121);
+}
+
+.Equal:hover {
+	-fx-background-color: rgb(119, 243, 119);
+}
+
+.Equal:pressed {
+	-fx-background-color: rgb(97, 145, 97);
+}
+
+
+.menu-bar {
+	-fx-background-color: black;
+}
+
+.menu {
+    -fx-background-color: grey;
+    -fx-border-radius: 30;
+}
+
+.menu:hover {
+    -fx-background-color: #4B4B4B;
+}
+
+.menu-item {
+    -fx-text-fill: white;
+    -fx-background-color: grey;
+}
+
+/* Optional: Style for hover effects on MenuItem */
+.menu-item:hover {
+    -fx-background-color: #666;  /* Background color on hover */
+}
+
